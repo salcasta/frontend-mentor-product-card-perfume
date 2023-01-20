@@ -2,6 +2,7 @@ body {
     background-color: hsl(30, 38%, 92%)
 }
 
+
 .card-body {
    background-color: hsl(0, 0%, 100%);
 }
@@ -27,12 +28,13 @@ body {
 .price {
     font-family: 'fraunces', 'sans-serif';
     font-weight: 700;
+    font-size: 2rem;
     color: hsl(158, 36%, 37%);
 }
 
 .discounted-price {
     color: rgb(146, 148, 153);
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .btn-primary {
@@ -45,7 +47,11 @@ body {
     font-weight: 500;
     font-size: 14px
 }
-    
+
+.btn:focus {
+    background-color: hsl(158, 36%, 37%);
+    border-color: hsl(158, 36%, 37%);
+}
     
 .attribution {
     font-size: 11px;
@@ -54,4 +60,11 @@ body {
 
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+
+@media (min-width: 400px) {
+    section {
+        display: none;
+    }
 }
