@@ -63,7 +63,7 @@ body {
 }
 
 
-@media (min-width: 400px) {
+@media (min-width: 500px) {
     section {
         display: none;
     }
